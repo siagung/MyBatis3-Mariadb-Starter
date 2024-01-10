@@ -4,7 +4,7 @@
  Source Server         : SSL
  Source Server Type    : MariaDB
  Source Server Version : 100430 (10.4.30-MariaDB-log)
- Source Host           : localhost:3318
+ Source Host           : localhost:3306
  Source Schema         : db_wgssl_06122023
 
  Target Server Type    : MariaDB
