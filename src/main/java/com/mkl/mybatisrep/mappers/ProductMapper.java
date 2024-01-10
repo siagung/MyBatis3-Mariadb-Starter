@@ -23,7 +23,7 @@ import org.apache.ibatis.annotations.Update;
 public interface ProductMapper {
 
     @Insert("INSERT INTO TB_BARANG(id, cbarang, vnama_barang, banalisa, breduct, breg, baktif)  VALUES (#{id}, #{cbarang}, #{vnama_barang}, #{banalisa}, #{breduct}, #{breg}, #{baktif})")
-    @Options(keyProperty = "id")
+    @Options(useGeneratedKeys=true, keyProperty="id")
     public void save(Product product);
 
     @Insert("INSERT INTO TB_BARANG(vnama_barang)  VALUES (#{vnama_barang})")
