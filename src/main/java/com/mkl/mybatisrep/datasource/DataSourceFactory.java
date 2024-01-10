@@ -32,7 +32,7 @@ public class DataSourceFactory {
     private static void decryptPassword() throws FileNotFoundException {
         FileInputStream stream = null;
         StandardPBEStringEncryptor encryptor = new StandardPBEStringEncryptor();
-        encryptor.setPassword("OpaZzR3borN");
+        encryptor.setPassword("123456789");
         encryptor.setAlgorithm("PBEWITHMD5ANDDES");
         Properties prop = new Properties();
         stream = new FileInputStream(Mybatisrep.appConfigPath());

@@ -63,7 +63,7 @@ public class Check {
 
     private void testpass() {
         final StrongPasswordEncryptor passwordEncryptor = new StrongPasswordEncryptor();
-        String encryptepPass = passwordEncryptor.encryptPassword("please");
+        String encryptepPass = passwordEncryptor.encryptPassword("12345");
         System.out.println(encryptepPass);
     }
 
